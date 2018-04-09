@@ -1,0 +1,5 @@
+name = Common Module
+description = In this module there is all common hook alteration
+core = 7.x
+package = "Other"
+version = "7.x-3.0"

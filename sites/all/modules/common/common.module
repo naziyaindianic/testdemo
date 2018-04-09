@@ -1,0 +1,36 @@
+<?php
+// function common_taxonomy_term_presave($term){
+	
+// 	$result = db_query('SELECT tid FROM taxonomy_term_data ORDER BY tid DESC LIMIT 1')->fetchAssoc();
+// 	$tid = $result['tid'] + 1;
+
+// 	//$term->tid = $tid;
+// 	$term->name = $term->name.$tid;
+// 	// echo "<pre>";  
+// 	// print_r($term);exit;
+// }
+ 
+ 
+// function common_form_alter(&$form, &$form_state, $form_id){
+// 	if($form_id == 'taxonomy_form_term'){
+		
+// 		$form['#submit'][1] = 'update_term_data';
+		
+// 		// echo '<pre>';
+// 		// print_r($form);
+
+// 	}
+	
+// }
+
+// function update_term_data(){
+// 	echo 'test';
+// 	exit;
+// }
+// function common_taxonomy_term_delete($term) {
+//   echo "<pre>";  
+// 	print_r($term);exit;
+//     db_delete('taxonomy_index')->condition('tid', $term->tid)->execute();
+  
+// }
+?>
